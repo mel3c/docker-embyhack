@@ -9,7 +9,7 @@ const originalFetch = window.fetch;
 // Defines the shape of the mock API responses.
 const mockApiEndpoints: Record<string, unknown> = {
   '/admin/service/registration/validateDevice': ({
-    cacheExpirationDays: 3650,
+    cacheExpirationDays: 36500,
     message: "Device Valid",
     resultCode: "GOOD"
   }),

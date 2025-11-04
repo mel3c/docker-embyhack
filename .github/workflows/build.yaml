@@ -3,16 +3,16 @@ on:
   workflow_dispatch:
     inputs:
       EMBY_VERSION:
-        description: "The Emby server version (e.g., 4.8.11.0)."
+        description: "The Emby server version (e.g., 4.8.10.0)."
         type: string
         required: true
-        default: 4.8.11.0
+        default: 4.8.10.0
       EMBY_REPLACEMENT_URL:
         description: >-
           URL for Emby's server replacement. Must starts with 'http' and end with '/'.
         type: string
         required: true
-        default: https://mb3admin.megm.workers.dev/
+        default: https://ebapi.xosdo.com/
       # remote_debug:
       #   description: >-
       #     Starts an SSH session to debug the runner. For advanced troubleshooting only.
